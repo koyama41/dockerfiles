@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  clang-sandbox:
+    build: clang-3.9-sandbox
+    image: koyama41/clang-3.9-sandbox
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - /etc/passwd:/etc/passwd
+      - /home:/home
+      - /usr/local/clang-4.0.1:/usr/local/clang-4.0.1
