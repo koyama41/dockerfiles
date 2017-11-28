@@ -15,6 +15,9 @@ For example,
 if you'd like to build the docker image above, try:
 
 > *$* git clone https://github.com/koyama41/dockerfiles.git
+
 > *$* cd dockerfiles
+
 > *$* cd ubuntu14.04-unbound
+
 > *$* docker build .
